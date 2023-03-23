@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(63, 80, 110);
+}
+.container {
+    text-align: center;
+
+}
+.sum-content {
+    background-color: rgb(255, 255, 255);
+   border-radius: 20px;
+   width: 50%;
+   margin-left: 370px;
+   height: 300px;
+}
+.text{
+    background-color: black;
+    color: rgb(252, 82, 207);
+    height: 50px;
+    align-items: center;
+    margin: 10px;
+}
+.text-content {
+    margin: 10px;
+    
+}
+.sumbit {
+    margin: 150px;
+}
+.sumbit input {
+    height: 40px;
+    width: 400px;
+    position: relative
+}
+.sumbit button {
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    left:870px;
+    top:144px;
+    margin-top: 144px;
+}
+.text-box {
+    display: flex;
+   justify-content: space-between;
+}
+#dot-container {
+   display: flex;
+   justify-content: space-between;
+}
+#dot-container .dot {
+    border: 1px solid black;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: rgb(236, 193, 216);
+}
+.active {
+    background-color: rgba(0, 6, 11, 0.573);
+}
